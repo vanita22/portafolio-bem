@@ -103,7 +103,8 @@
 .ae-grid.box2 {
   background-color: #fff;
   height: auto;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 30px; }
   .ae-grid.box2 img {
     box-shadow: 2px 2px 8px #000;
     margin-top: 45px;
@@ -123,5 +124,15 @@
     text-align: justify;
     font-weight: 400;
     width: 90%; }
+
+.ae-grid.box3 {
+  background-color: #203748;
+  color: #fff;
+  text-align: center;
+  height: 10vh;
+  padding: 10px; }
+  .ae-grid.box3 h5 {
+    display: inline-block;
+    margin-right: 30px; }
 
 /*# sourceMappingURL=main.css.map */
