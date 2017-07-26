@@ -28,19 +28,22 @@
 		color:$color_d;
 		border-radius: 23px;
 		font-weight: bold;
-		margin-top: 10px;	
-		.btn img{
-			width: 10px;
-			height: 10px;
-			
-			margin-left: 5px;
-			margin-right: 5px;
-		}
+		margin-top: 10px;
+		padding: 5px 15px;		
+	}
+	a{
+		text-decoration: none;
+		color: $color_d;
+	}
+	a:hover{
+		background-color: $color_d;
+		color: $color_a;
+		padding: 12px;
 	}
 	li{
 		display: inline-flex;
 		width: auto;
-		margin-right: 25px;
+		margin-right: 25px;		
 	}
 }
 #box{
@@ -63,10 +66,10 @@
 		color: $color_b;
 		width: 250px;
 		height: 250px;
-		font-size: 50px;
+		font-size: 60px;
 		border-radius: 300px;
 		margin-left: 40%;
-		padding: 75px;
+		padding: 60px;
 	}
 	h1{
 		color: $color_c;
@@ -84,6 +87,7 @@
 		border-radius: 30px;	
 		color: $color_d;	
 		font-weight: 700;
+		font-size: 15px;
 	}
 	.box1{
 		display: inline-flex;

@@ -33,12 +33,15 @@
     color: #fff;
     border-radius: 23px;
     font-weight: bold;
-    margin-top: 10px; }
-    .ae-container-fluid--full .btn button .btn img {
-      width: 10px;
-      height: 10px;
-      margin-left: 5px;
-      margin-right: 5px; }
+    margin-top: 10px;
+    padding: 5px 15px; }
+  .ae-container-fluid--full a {
+    text-decoration: none;
+    color: #fff; }
+  .ae-container-fluid--full a:hover {
+    background-color: #fff;
+    color: #f04949;
+    padding: 12px; }
   .ae-container-fluid--full li {
     display: inline-flex;
     width: auto;
@@ -64,10 +67,10 @@
     color: #203748;
     width: 250px;
     height: 250px;
-    font-size: 50px;
+    font-size: 60px;
     border-radius: 300px;
     margin-left: 40%;
-    padding: 75px; }
+    padding: 60px; }
   .ae-grid h1 {
     color: #39d084;
     font-size: 50px; }
@@ -82,7 +85,8 @@
     /*verde*/
     border-radius: 30px;
     color: #fff;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 15px; }
   .ae-grid .box1 {
     display: inline-flex;
     width: 100%;
