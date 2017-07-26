@@ -3,6 +3,7 @@
 /*azul*/
 /*verde*/
 /*blanco*/
+/*negro*/
 * {
   font-family: 'Open Sans', sans-serif; }
 
@@ -11,14 +12,15 @@
   /*rojo*/
   display: inline-flex;
   width: 100% auto;
-  padding: 15px;
+  height: 10vh;
+  padding: 5px;
   text-align: center;
   color: #fff;
   font-weight: bold; }
   .ae-container-fluid--full img {
     display: inline-flex;
-    width: 80px;
-    height: 80px;
+    width: 58px;
+    height: 58px;
     margin-left: 30%;
     margin-right: 5%;
     border-radius: 100px;
@@ -45,7 +47,9 @@
   .ae-container-fluid--full li {
     display: inline-flex;
     width: auto;
-    margin-right: 25px; }
+    margin-right: 55px;
+    font-size: 15px;
+    font-weight: 400; }
 
 #box {
   position: fixed;
@@ -59,7 +63,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  top: 70px;
+  top: 50px;
   padding: 50px;
   color: #fff; }
   .ae-grid .imagen h1 {
@@ -95,5 +99,29 @@
       width: 50px;
       height: 50px;
       margin-right: 20px; }
+
+.ae-grid.box2 {
+  background-color: #fff;
+  height: auto;
+  padding: 10px; }
+  .ae-grid.box2 img {
+    box-shadow: 2px 2px 8px #000;
+    margin-top: 45px;
+    border-radius: 10px;
+    cursor: pointer; }
+  .ae-grid.box2 img:hover {
+    background-color: #fff;
+    opacity: .5; }
+  .ae-grid.box2 h1 {
+    font-size: 45px;
+    color: #39d084;
+    font-weight: 700;
+    text-align: center;
+    width: 90%; }
+  .ae-grid.box2 p {
+    color: #000;
+    text-align: justify;
+    font-weight: 400;
+    width: 90%; }
 
 /*# sourceMappingURL=main.css.map */

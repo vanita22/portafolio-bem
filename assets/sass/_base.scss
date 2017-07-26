@@ -5,14 +5,15 @@
 	background-color: $color_a; /*rojo*/	
 	display: inline-flex;
 	width: 100% auto;
-	padding: 15px;
+	height: 10vh;
+	padding: 5px;
 	text-align: center;
 	color: $color_d;
 	font-weight: bold;	
 	img{
 		display: inline-flex;
-		width: 80px;
-		height: 80px;
+		width: 58px;
+		height: 58px;
 		margin-left: 30%;
 		margin-right: 5%;
 		border-radius: 100px;
@@ -43,7 +44,9 @@
 	li{
 		display: inline-flex;
 		width: auto;
-		margin-right: 25px;		
+		margin-right: 55px;	
+		font-size: 15px;
+		font-weight: 400;	
 	}
 }
 #box{
@@ -58,7 +61,7 @@
 	position: relative;
 	width: 100%;
 	height: auto;
-	top: 70px;
+	top: 50px;
 	padding: 50px;
 	color: $color_d;
 	.imagen h1{
@@ -99,4 +102,34 @@
 			margin-right: 20px;
 		}
 	}
+}
+
+.ae-grid.box2{
+	background-color: $color_d;	
+	height: auto;
+	padding: 10px;
+	img{
+		box-shadow: 2px 2px 8px #000;
+		margin-top: 45px;
+		border-radius: 10px;
+		cursor: pointer;					
+	}	
+	img:hover{
+		background-color:$color_d;
+		opacity: .5;  
+	}
+	h1{
+		font-size: 45px;
+		color: $color_c;
+		font-weight: 700;
+		text-align: center;
+		width: 90%;
+	}
+	p{
+		color: $color_e;
+		text-align: justify;
+		font-weight: 400;
+		width: 90%;
+	}
+	
 }
