@@ -1,11 +1,19 @@
 @import url("../css/aurora-grid/aurora-grid.min.css");
+/*rojo*/
+/*azul*/
+/*verde*/
+/*blanco*/
+* {
+  font-family: 'Open Sans', sans-serif; }
+
 .ae-container-fluid--full {
-  background-color: red;
+  background-color: #f04949;
+  /*rojo*/
   display: inline-flex;
   width: 100% auto;
   padding: 15px;
   text-align: center;
-  color: white;
+  color: #fff;
   font-weight: bold; }
   .ae-container-fluid--full img {
     display: inline-flex;
@@ -15,21 +23,20 @@
     margin-right: 5%;
     border-radius: 100px;
     background-color: lightgrey;
-    border: 3px solid white;
+    border: 3px solid #fff;
     padding: 10px; }
-  .ae-container-fluid--full button {
+  .ae-container-fluid--full .btn button {
     display: inline-flex;
     width: 100px;
     height: 30px;
-    background-color: blue;
-    color: white;
+    background-color: #203748;
+    color: #fff;
     border-radius: 23px;
     font-weight: bold;
     margin-top: 10px; }
-    .ae-container-fluid--full button img {
+    .ae-container-fluid--full .btn button .btn img {
       width: 10px;
       height: 10px;
-      background-color: white;
       margin-left: 5px;
       margin-right: 5px; }
   .ae-container-fluid--full li {
@@ -44,24 +51,25 @@
   z-index: 1; }
 
 .ae-grid {
-  background-color: blue;
+  background-color: #203748;
+  /*azuloscuro*/
   position: relative;
   width: 100%;
   height: auto;
   top: 70px;
   padding: 50px;
-  color: white; }
+  color: #fff; }
   .ae-grid .imagen h1 {
-    background-color: white;
-    color: blue;
+    background-color: #fff;
+    color: #203748;
     width: 250px;
     height: 250px;
     font-size: 50px;
     border-radius: 300px;
     margin-left: 40%;
-    padding: 80px; }
+    padding: 75px; }
   .ae-grid h1 {
-    color: green;
+    color: #39d084;
     font-size: 50px; }
   .ae-grid h2 {
     margin-bottom: 40px;
@@ -70,8 +78,11 @@
     width: 200px;
     height: auto;
     padding: 10px;
-    background-color: green;
-    border-radius: 30px; }
+    background-color: #39d084;
+    /*verde*/
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700; }
   .ae-grid .box1 {
     display: inline-flex;
     width: 100%;

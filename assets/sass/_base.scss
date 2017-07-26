@@ -1,10 +1,13 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
 .ae-container-fluid--full{
-	background-color: red;	
+	background-color: $color_a; /*rojo*/	
 	display: inline-flex;
 	width: 100% auto;
 	padding: 15px;
 	text-align: center;
-	color: white;
+	color: $color_d;
 	font-weight: bold;	
 	img{
 		display: inline-flex;
@@ -14,22 +17,22 @@
 		margin-right: 5%;
 		border-radius: 100px;
 		background-color: lightgrey;
-		border:3px solid white;
+		border:3px solid $color_d;
 		padding: 10px;
 	}
-	button{
+	.btn button{
 		display: inline-flex;
 		width: 100px;
 		height: 30px;
-		background-color: blue;
-		color:white;
+		background-color: $color_b;
+		color:$color_d;
 		border-radius: 23px;
 		font-weight: bold;
 		margin-top: 10px;	
-		img{
+		.btn img{
 			width: 10px;
 			height: 10px;
-			background-color: white;
+			
 			margin-left: 5px;
 			margin-right: 5px;
 		}
@@ -48,25 +51,25 @@
 }
 
 .ae-grid{
-	background-color: blue;
+	background-color: $color_b; /*azuloscuro*/
 	position: relative;
 	width: 100%;
 	height: auto;
 	top: 70px;
 	padding: 50px;
-	color: white;
+	color: $color_d;
 	.imagen h1{
-		background-color: white;		
-		color: blue;
+		background-color: $color_d;		
+		color: $color_b;
 		width: 250px;
 		height: 250px;
 		font-size: 50px;
 		border-radius: 300px;
 		margin-left: 40%;
-		padding: 80px;
+		padding: 75px;
 	}
 	h1{
-		color: green;
+		color: $color_c;
 		font-size: 50px;
 	}
 	h2{
@@ -77,8 +80,10 @@
 		width: 200px;
 		height: auto;
 		padding: 10px;
-		background-color: green;
-		border-radius: 30px;		
+		background-color: $color_c; /*verde*/
+		border-radius: 30px;	
+		color: $color_d;	
+		font-weight: 700;
 	}
 	.box1{
 		display: inline-flex;
